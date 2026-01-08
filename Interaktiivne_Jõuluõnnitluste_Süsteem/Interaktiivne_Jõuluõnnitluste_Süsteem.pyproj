@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cbb5ffe3-dc21-444c-b80f-6266deec010c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>joulutervitused.py</StartupFile>
+    <StartupFile>tööfail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="joulutervitused.py" />
+    <Compile Include="tööfail.py" />
     <Compile Include="onnitleja.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

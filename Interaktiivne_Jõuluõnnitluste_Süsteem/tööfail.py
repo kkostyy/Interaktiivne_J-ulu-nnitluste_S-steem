@@ -1,7 +1,3 @@
-from os import wait
-import re
-
-
 def kirjuta_failisse(failinimi:str,loend:list):
     while True:
         reziim = input("Sisesta faili avamise reziim(w - kirjutamine, a - lisamine): ")

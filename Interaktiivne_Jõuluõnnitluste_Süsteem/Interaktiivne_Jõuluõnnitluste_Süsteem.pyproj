@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cbb5ffe3-dc21-444c-b80f-6266deec010c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>faili.py</StartupFile>
+    <StartupFile>glob.glob_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="faili.py" />
+    <Compile Include="glob.glob_main.py" />
     <Compile Include="tööfail.py" />
     <Compile Include="onnitleja.py" />
   </ItemGroup>
